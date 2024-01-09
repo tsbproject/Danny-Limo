@@ -1,0 +1,15 @@
+{
+  "name": "danny-limo",
+  "version": "1.0.0",
+  "description": "one page landing page for danny limo llc",
+  "main": "index.js",
+  "scripts": {
+    "compile:sass": "node-sass sass/main.scss css/style.css -w"
+  },
+  "author": "Tayo",
+  "license": "ISC",
+  "dependencies": {
+    "node-sass": "^9.0.0",
+    "save-dev": "^0.0.1-security"
+  }
+}
