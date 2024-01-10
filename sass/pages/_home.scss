@@ -1,6 +1,24 @@
+
+#section1 {
+    height: 100rem;
+    background-image:
+    radial-gradient( 
+    rgba($color-secondary-white,0.2), 
+    rgba($color-primary-black,0.5)),
+    url(/images/background3.jpg);
+    background-position: top;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+   
+  
+
+   }
+
+
 #section2 {
    
-    height: 60rem;
+    height: 100rem;
     
 }
 

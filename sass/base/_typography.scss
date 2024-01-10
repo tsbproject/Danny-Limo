@@ -1,0 +1,44 @@
+body {
+    font-family: "oxygen" sans-serif;
+    font-weight: 400;
+    line-height: 1.7;
+    color: $color-primary-black;
+    padding: 1.5rem;
+}
+
+
+
+
+
+
+
+.heading-primary {
+    color: $color-primary;
+    text-transform: uppercase;
+
+
+    margin-bottom: 6rem;
+
+    &--main {
+        display: block;
+        font-size: $heading-primary-font-main;
+        font-weight: 700;
+        letter-spacing: 3.5rem;
+        margin-bottom: 4rem;
+
+    }
+
+
+    &--sub {
+        display: block;
+        font-size: $header-primary-font-sub;
+        font-weight: 600;
+        letter-spacing: 1.75rem;
+
+
+    }
+
+
+    
+   
+}

@@ -1,12 +1,33 @@
 
+.navbar {
+    height: 10vh;
+    font-size:2rem;
+    font-weight: 500;
+    }
 
 
-#section1 {
-    height: 60rem;
-    background-image:
-    linear-gradient(to right bottom, 
-    rgba($color-primary,0.5), 
-    rgba($color-primary-black,7.0)) ;
-  
+.navbar-brand {
+    width: $navbar-brand-width;
+    height: $navbar-brand-height;
+}
 
-   }
+
+
+.site-logo {
+    width: $logo-width;
+    height: $logo-height;
+}
+
+
+.home__text-box {
+
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        text-align: center;
+        
+        
+
+}
+

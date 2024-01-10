@@ -11,10 +11,28 @@ html {
 body {
   box-sizing: border-box; }
 
-.navbar {
-  height: 10vh;
-  font-size: 2rem;
-  font-weight: 500; }
+body {
+  font-family: "oxygen" sans-serif;
+  font-weight: 400;
+  line-height: 1.7;
+  color: #000000;
+  padding: 1.5rem; }
+
+.heading-primary {
+  color: #FF4F00;
+  text-transform: uppercase;
+  margin-bottom: 6rem; }
+  .heading-primary--main {
+    display: block;
+    font-size: 7rem;
+    font-weight: 700;
+    letter-spacing: 3.5rem;
+    margin-bottom: 4rem; }
+  .heading-primary--sub {
+    display: block;
+    font-size: 3rem;
+    font-weight: 600;
+    letter-spacing: 1.75rem; }
 
 .navbar-nav {
   color: #000000;
@@ -28,12 +46,36 @@ body {
   font-stretch: normal;
   font-family: "oxygen" sans-serif; }
 
+.navbar {
+  height: 10vh;
+  font-size: 2rem;
+  font-weight: 500; }
+
+.navbar-brand {
+  width: 14rem;
+  height: 9rem; }
+
+.site-logo {
+  width: 12rem;
+  height: 8rem; }
+
+.home__text-box {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center; }
+
 #section1 {
-  height: 60rem;
-  background-image: linear-gradient(to right bottom, rgba(255, 165, 0, 0.5), black); }
+  height: 100rem;
+  background-image: radial-gradient(rgba(255, 255, 255, 0.2), rgba(0, 0, 0, 0.5)), url(/images/background3.jpg);
+  background-position: top;
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: relative; }
 
 #section2 {
-  height: 60rem; }
+  height: 100rem; }
 
 #section3 {
   height: 60rem;
