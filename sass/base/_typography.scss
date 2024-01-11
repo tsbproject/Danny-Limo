@@ -18,6 +18,7 @@ body {
 
 
     margin-bottom: 6rem;
+    backface-visibility: hidden;
 
     &--main {
         display: block;
@@ -25,8 +26,9 @@ body {
         font-weight: 700;
         letter-spacing: 3.5rem;
         margin-bottom: 4rem;
+        margin-left: 3rem;
 
-        animation: moveInLeft 1s ease-out ;
+        animation: moveInLeft 2s ease-out ;
 
     }
 
@@ -35,9 +37,10 @@ body {
         display: block;
         font-size: $header-primary-font-sub;
         font-weight: 600;
-        letter-spacing: 1.75rem;
+        letter-spacing: 1.5rem;
+        //margin-right: 3rem;
 
-        animation: moveInRight 1s ease-out;
+        animation: moveInRight 2s 2s ease-out;
 
 
     }

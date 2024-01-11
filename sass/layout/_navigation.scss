@@ -3,18 +3,32 @@
      .navbar-nav {
         color: $color-primary-black;
         list-style: none;
-        display: inline-flex;
-        position: relative;
-        left: 80rem;
+        display: block;
+      //   position: relative;
+      //   left: 80rem;
         
         
      }
 
      .nav-item {
-        margin-right: 2rem;
         font-stretch: normal;
         font-family: "oxygen" sans-serif;
+
+        &:not(:last-child) {
+          margin-right: 10px;
+        
+        }
+
+      
      }
+
+     .navbar-toggler {
+      padding: 0;
+      border: none;
+      box-shadow: none !important;
+      margin-right: 1.5rem;
+      font-size: 1.5rem;
+  }
 
      
    

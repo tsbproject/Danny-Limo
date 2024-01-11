@@ -39,6 +39,17 @@ html {
 body {
   box-sizing: border-box; }
 
+/********** Extra small devices only **********/
+@media (max-width: 767px) {
+  #section1 {
+    height: 50rem;
+    background-image: radial-gradient(rgba(255, 255, 255, 0.2), rgba(0, 0, 0, 0.5)), url(/images/background3.jpg);
+    background-position: top;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative; } }
+
+/********** Super extra small devices Only :-) (e.g., iPhone 4) **********/
 body {
   font-family: "oxygen" sans-serif;
   font-weight: 400;
@@ -48,20 +59,22 @@ body {
 .heading-primary {
   color: #FF4F00;
   text-transform: uppercase;
-  margin-bottom: 6rem; }
+  margin-bottom: 6rem;
+  backface-visibility: hidden; }
   .heading-primary--main {
     display: block;
     font-size: 7rem;
     font-weight: 700;
     letter-spacing: 3.5rem;
     margin-bottom: 4rem;
-    animation: moveInLeft 1s ease-out; }
+    margin-left: 3rem;
+    animation: moveInLeft 2s ease-out; }
   .heading-primary--sub {
     display: block;
     font-size: 3rem;
     font-weight: 600;
-    letter-spacing: 1.75rem;
-    animation: moveInRight 1s ease-out; }
+    letter-spacing: 1.5rem;
+    animation: moveInRight 2s 2s ease-out; }
 
 .navbar-nav {
   color: #000000;
@@ -71,12 +84,20 @@ body {
   left: 80rem; }
 
 .nav-item {
-  margin-right: 2rem;
   font-stretch: normal;
   font-family: "oxygen" sans-serif; }
+  .nav-item:not(:last-child) {
+    margin-right: 10px; }
+
+.navbar-toggler {
+  padding: 0;
+  border: none;
+  box-shadow: none !important;
+  margin-right: 1.5rem;
+  font-size: 1.5rem; }
 
 .navbar {
-  height: 10vh;
+  height: 8rem;
   font-size: 2rem;
   font-weight: 500; }
 

@@ -6,18 +6,29 @@ $color-primary-black: #000000; //black
 $color-secondary-white:#ffffff;
 
 
+$color-grey-dark: #777;
+$color-grey-dark-2: #999;
+$color-grey-dark-3: #333;
+
+
 //common variables
 $navbar-brand-width:14rem;//140px
 $navbar-brand-height: 9rem; // 50px
+
+$navbar-brand-width-mobile:8rem;
+$navbar-brand-height-mobile: 5rem; 
 
 
 $logo-width: 12rem;
 $logo-height: 8rem;
 
+$logo-width-mobile: 7rem;
+$logo-height-mobile: 5rem;
+
 
 //FONT
 
-$body-font-size: 1.7rem;
+$default-font-size: 1.7rem;
 $heading-primary-font-main:7rem;
 $header-primary-font-sub: 3rem;
 

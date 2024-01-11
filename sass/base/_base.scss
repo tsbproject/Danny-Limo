@@ -17,26 +17,32 @@ body {
 
 
 
-// X-Small devices (portrait phones, less than 576px)
-// No media query for `xs` since this is the default in Bootstrap
+@media (min-width: 768px) and (max-width: 991px) {
 
-// Small devices (landscape phones, 576px and up)
-@media (min-width: 576px) {  
 }
 
-// Medium devices (tablets, 768px and up)
-@media (min-width: 768px) { 
- 
+
+
+
+/********** Extra small devices only **********/
+@media (max-width: 767px) {
+   
+
+
+    .navbar-nav {
+        color: $color-primary-black;
+        list-style: none;
+        display: block;
+        position: absolute;
+        left: 100rem;
+      
+        
+        
+     }
 }
 
-// Large devices (desktops, 992px and up)
-@media (min-width: 992px) {  
-}
 
-// X-Large devices (large desktops, 1200px and up)
-@media (min-width: 1200px) {  
-}
+/********** Super extra small devices Only :-) (e.g., iPhone 4) **********/
+@media (max-width: 479px) {
 
-// XX-Large devices (larger desktops, 1400px and up)
-@media (min-width: 1400px) {  
 }
