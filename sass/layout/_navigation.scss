@@ -3,24 +3,44 @@
      .navbar-nav {
         color: $color-primary-black;
         list-style: none;
-        display: block;
-      //   position: relative;
-      //   left: 80rem;
-        
-        
-     }
+        display: inline-flex;
+
+       
+
+      }
 
      .nav-item {
         font-stretch: normal;
         font-family: "oxygen" sans-serif;
 
-        &:not(:last-child) {
-          margin-right: 10px;
-        
-        }
+       
 
-      
-     }
+        
+
+      }
+
+
+       .nav-link {
+         margin-left: 1rem;
+         position: relative;
+         left: 85rem;
+       
+         @include for-phone-only {
+          @media (max-width: 599px) { 
+            position: relative;
+            left: 28rem;
+            
+            
+           
+          }
+        }
+       
+
+       }
+
+  
+
+
 
      .navbar-toggler {
       padding: 0;
