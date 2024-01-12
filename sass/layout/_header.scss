@@ -35,15 +35,6 @@
         transform: translate(-50%, -50%);
         text-align: center;
         
-        @mixin for-phone-only {
-            @media (max-width: 599px) {
-                position: absolute;
-                top: 50%;
-                left: 50%;
-                transform: translate(-50%, -50%);
-                text-align: center;
-                    }
-          } 
-
+      
 }
 

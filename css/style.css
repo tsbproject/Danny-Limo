@@ -72,18 +72,10 @@ body {
     margin-bottom: 4rem;
     margin-left: 3rem;
     animation: moveInLeft 2s ease-out; }
-
-@media (max-width: 599px) and (max-width: 599px) {
-  .heading-primary--main {
-    margin-top: 20rem;
-    font-size: 3rem;
-    font-weight: 700;
-    letter-spacing: 3rem;
-    margin-bottom: 4rem;
-    margin-left: 3rem; } }
   .heading-primary--sub {
+    margin-top: 10rem;
     display: block;
-    font-size: 1.5rem;
+    font-size: 2rem;
     font-weight: 600;
     letter-spacing: 1.5rem;
     animation: moveInRight 2s 2s ease-out; }
