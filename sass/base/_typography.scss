@@ -32,7 +32,7 @@ body {
 
         @include for-phone-only {
             @media (max-width: 599px) {
-        margin-top: 10rem;        
+        margin-top: 20rem;        
         font-size: $heading-primary-font-main-small;
         font-weight: 700;
         letter-spacing: 3rem;
@@ -46,7 +46,7 @@ body {
 
     &--sub {
         display: block;
-        font-size: $header-primary-font-sub;
+        font-size: $heading-primary-font-sub;
         font-weight: 600;
         letter-spacing: 1.5rem;
         //margin-right: 3rem;

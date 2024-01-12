@@ -75,15 +75,15 @@ body {
 
 @media (max-width: 599px) and (max-width: 599px) {
   .heading-primary--main {
-    margin-top: 10rem;
-    font-size: 5rem;
+    margin-top: 20rem;
+    font-size: 3rem;
     font-weight: 700;
     letter-spacing: 3rem;
     margin-bottom: 4rem;
     margin-left: 3rem; } }
   .heading-primary--sub {
     display: block;
-    font-size: 3rem;
+    font-size: 1.5rem;
     font-weight: 600;
     letter-spacing: 1.5rem;
     animation: moveInRight 2s 2s ease-out; }
@@ -142,15 +142,11 @@ body {
   background-repeat: no-repeat;
   position: relative; }
 
-@media (min-width: 600px) and (min-width: 600px) {
-  #section1 {
-    height: 50rem; } }
-
 @media (max-width: 599px) and (max-width: 599px) {
   #section1 {
-    height: 60rem;
+    height: 30rem;
     background-size: contain;
-    background-position-x: center; } }
+    background-position: center; } }
 
 #section2 {
   height: 100rem; }
