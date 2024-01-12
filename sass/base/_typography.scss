@@ -30,6 +30,17 @@ body {
 
         animation: moveInLeft 2s ease-out ;
 
+        @include for-phone-only {
+            @media (max-width: 599px) {
+        margin-top: 10rem;        
+        font-size: $heading-primary-font-main-small;
+        font-weight: 700;
+        letter-spacing: 3rem;
+        margin-bottom: 4rem;
+        margin-left: 3rem;
+             }
+          }
+
     }
 
 

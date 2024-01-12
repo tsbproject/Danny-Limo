@@ -72,6 +72,15 @@ body {
     margin-bottom: 4rem;
     margin-left: 3rem;
     animation: moveInLeft 2s ease-out; }
+
+@media (max-width: 599px) and (max-width: 599px) {
+  .heading-primary--main {
+    margin-top: 10rem;
+    font-size: 5rem;
+    font-weight: 700;
+    letter-spacing: 3rem;
+    margin-bottom: 4rem;
+    margin-left: 3rem; } }
   .heading-primary--sub {
     display: block;
     font-size: 3rem;
@@ -94,11 +103,6 @@ body {
   left: 85rem; }
 
 @media (max-width: 599px) and (max-width: 599px) {
-  .nav-link {
-    position: relative;
-    left: 28rem; } }
-
-@media (max-width: 414px) and (max-width: 599px) {
   .nav-link {
     position: relative;
     left: 28rem; } }
@@ -144,13 +148,9 @@ body {
 
 @media (max-width: 599px) and (max-width: 599px) {
   #section1 {
-    height: 50rem;
-    background-size: contain; } }
-
-@media (max-width: 414px) and (max-width: 599px) {
-  #section1 {
-    height: 50rem;
-    background-size: contain; } }
+    height: 60rem;
+    background-size: contain;
+    background-position-x: center; } }
 
 #section2 {
   height: 100rem; }

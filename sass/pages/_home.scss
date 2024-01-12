@@ -20,8 +20,10 @@
 
       @include for-phone-only {
         @media (max-width: 599px) {
-            height: 50rem;
+            height: 60rem;
             background-size: contain;
+           background-position-x: center;
+           
            
         }
       }
