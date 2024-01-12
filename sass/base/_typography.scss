@@ -15,9 +15,11 @@ body {
 .heading-primary {
     color: $color-primary;
     text-transform: uppercase;
+   
+   
 
 
-    margin-bottom: 6rem;
+    margin-bottom: 8rem;
     backface-visibility: hidden;
 
     &--main {
@@ -30,7 +32,34 @@ body {
 
         animation: moveInLeft 2s ease-out ;
 
-        
+        @include for-tablet-portrait-up {
+            @media (max-width: 768px) {
+                margin-top: 1rem;
+                display: block;
+                font-size: $heading-primary-font-main-small;
+                font-weight: 700;
+                letter-spacing: 2rem;
+                margin-bottom: 0.4rem;
+                margin-left: 3rem;
+
+            }
+          } 
+          
+          @include for-tablet-landscape-up {
+            @media (min-width: 992px) {
+                display: block;
+                font-size: $heading-primary-font-main-small;
+                font-weight: 700;
+                letter-spacing: 2rem;
+                margin-bottom: 0.4rem;
+                margin-left: 3rem;
+
+               
+               
+             
+             }
+          }
+    
 
         
 
@@ -46,6 +75,8 @@ body {
         //margin-right: 3rem;
 
         animation: moveInRight 2s 2s ease-out;
+
+       
 
 
     }
