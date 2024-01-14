@@ -3,8 +3,8 @@
     height: 100rem;
     background-image:
     radial-gradient( 
-    rgba($color-secondary-white,0.2), 
-    rgba($color-primary-black,0.5)),
+    rgba($color-primary-black,1.0), 
+    rgba($color-secondary-white,0.2)),
     url("../images/background3.jpg");
     background-position: top;
     background-size: cover;
@@ -15,7 +15,7 @@
 
       @include for-phone-only {
         @media (max-width: 576px) {
-            height: 30rem;
+            height: 50rem;
             background-size: contain;
            background-position: center;
            
@@ -30,6 +30,7 @@
             height: 50rem;
             background-size: contain;
            background-position: center;
+        
            
            
            
@@ -60,9 +61,11 @@
    
 
 
-#section2 {
-   
-    height: 100rem;
+   #section2 {
+    height: 50rem;
+
+
+      
     
 }
 

@@ -3,6 +3,7 @@ body {
     font-weight: 400;
     line-height: 1.7;
     color: $color-primary-black;
+ 
     //padding: 1.5rem;
 }
 
@@ -85,3 +86,34 @@ body {
     
    
 }
+
+
+
+.section-about {
+   
+
+
+      &--heading{
+        font-size: $heading-secondary-font;
+        text-transform: uppercase;
+        color: $color-primary;
+
+      }
+
+      &--paragraph1 {
+        color: $color-secondary-white;
+        font-size: $default-font-size;
+        justify-content: space-around;
+      }
+
+
+      &--img {
+        width: 32rem;
+        border: 2rem;
+        box-shadow: 0.5rem 1rem 0.7rem rgba($color-primary,0.3);
+        
+      }
+    
+}
+
+
