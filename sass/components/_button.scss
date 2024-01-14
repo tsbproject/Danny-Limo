@@ -97,6 +97,13 @@
         box-shadow: 0 .5rem 1rem rgba($color-primary-black, .15);
         transform: translateY(0);
     }
+
+    @include for-phone-only {
+        @media(max-width: 576px) {
+            margin-top: 100rem;
+
+        }
+    }
 }
 
 
