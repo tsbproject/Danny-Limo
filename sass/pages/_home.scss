@@ -64,10 +64,16 @@
    #section2 {
     height: 50rem;
 
-
+@include for-phone-only {
+  @media (max-width: 576px) { 
+      height: 130rem;
+   }
+    
+  }
+}
       
     
-}
+
 
 
 #section3 {

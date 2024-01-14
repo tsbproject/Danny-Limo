@@ -77,7 +77,12 @@ body {
 
         animation: moveInRight 2s 2s ease-out;
 
-       
+       @include for-phone-only {
+        @media(max-width: 576px) {
+          margin-top: -2rem;
+
+        }
+       }
 
 
     }
