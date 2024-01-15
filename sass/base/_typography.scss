@@ -108,15 +108,36 @@ body {
       &--paragraph1 {
         color: $color-secondary-white;
         font-size: $default-font-size;
-        justify-content: space-around;
+        text-align: justify;
       }
 
 
       &--img {
-        width: 32rem;
+        width: 52rem;
         border: 2rem;
-        box-shadow: 0.5rem 1rem 0.7rem rgba($color-primary,0.3);
-        
+        margin-left: -4rem;
+        box-shadow: 1rem  1rem  1rem rgba($color-primary,0.3);
+
+        @include for-phone-only {
+          @media(max-width:  576px) {
+             width: 20rem;
+             margin-left: -3rem;
+          
+          }
+        }
+
+        @include for-phone-only {
+          @media (max-width: 476px) {
+            width: 32rem;
+            margin-left: 0.2rem;
+            margin-top: 2rem;
+           align-items: center;
+           }
+        }
+      }
+
+      &--paragraph1 {
+        text-justify: auto;
       }
     
 }
