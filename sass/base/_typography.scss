@@ -129,7 +129,10 @@ body {
 
         @include for-tablet-portrait-up {
           @media (max-width: 768px) { 
-            width: 27rem;
+            width: 30rem;
+            position: relative;
+            right: -1.8rem;
+        
             
           
           }
