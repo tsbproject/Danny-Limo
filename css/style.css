@@ -329,11 +329,11 @@ body {
 
 @media (max-width: 576px) and (max-width: 576px) {
   #section2 {
-    height: 126rem; } }
+    height: 160rem; } }
 
 @media (max-width: 768px) and (max-width: 768px) {
   #section2 {
-    height: 75rem; } }
+    height: 120rem; } }
 
 @media (min-width: 992px) and (min-width: 992px) {
   #section2 {

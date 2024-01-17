@@ -66,14 +66,14 @@
 
 @include for-phone-only {
   @media (max-width: 576px) { 
-      height: 126rem;
+      height: 160rem;
    }
     
   }
 
   @include for-tablet-portrait-up {
     @media (max-width: 768px) { 
-      height: 75rem;
+      height: 120rem;
     
     }
   }
