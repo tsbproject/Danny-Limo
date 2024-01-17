@@ -130,9 +130,9 @@ body {
 .section-services {
   background-color: #000000; }
   .section-services--heading {
-    background-color: color-primary-black;
+    background-color: #000000;
     color: #deb887;
-    font-size: 7rem;
+    font-size: 5rem;
     text-transform: uppercase; }
   .section-services--heading2 {
     color: #deb887;
@@ -141,7 +141,25 @@ body {
     text-align: center; }
   .section-services--paragraph1 {
     font-size: 1.5rem;
-    text-align: left; }
+    text-align: left;
+    border: 1px solid #deb887;
+    padding: 1rem; }
+
+.section-testimonial--heading {
+  font-size: 5rem;
+  text-transform: uppercase;
+  color: #deb887; }
+
+.section-testimonial--heading2 {
+  color: #deb887;
+  text-transform: uppercase;
+  font-size: 1.7rem;
+  text-align: left; }
+
+.section-testimonial--paragraph1 {
+  font-size: 1.5rem;
+  text-align: left;
+  padding: 1rem; }
 
 .u-center-text {
   text-align: center !important; }
@@ -321,6 +339,14 @@ body {
 #about-column {
   background-color: #000000; }
 
+#testimonial-column {
+  color: #000000;
+  background-color: #000000;
+  border-bottom: solid .2rem;
+  border-color: #deb887;
+  padding: 3rem;
+  text-align: center; }
+
 #section1 {
   height: 100rem;
   background-image: radial-gradient(black, rgba(255, 255, 255, 0.2)), url("../images/background3.jpg");
@@ -370,5 +396,9 @@ body {
   background-color: orange; }
 
 #section5 {
-  height: 60rem;
-  background-color: #5500ff; }
+  height: 100rem;
+  background-image: linear-gradient(to right bottom, black, rgba(0, 0, 0, 0.8)), url("../images/Picture 6.jpg");
+  background-position: top;
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: relative; }
