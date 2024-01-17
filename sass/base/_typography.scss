@@ -126,6 +126,14 @@ body {
           }
         }
 
+
+        @include for-tablet-portrait-up {
+          @media (max-width: 768px) { 
+            width: 27rem;
+          
+          }
+        }
+
         @include for-phone-only {
           @media (max-width: 476px) {
             width: 32rem;

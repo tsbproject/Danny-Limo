@@ -70,6 +70,21 @@
    }
     
   }
+
+  @include for-tablet-portrait-up {
+    @media (max-width: 768px) { 
+      height: 75rem;
+    
+    }
+  }
+
+
+  @include for-tablet-landscape-up {
+    @media (min-width: 992px) { 
+      height: 68rem;
+
+    }
+  }
 }
       
     
