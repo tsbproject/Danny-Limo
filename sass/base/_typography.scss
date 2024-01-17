@@ -130,12 +130,13 @@ body {
         @include for-tablet-portrait-up {
           @media (max-width: 768px) { 
             width: 27rem;
+            
           
           }
         }
 
         @include for-phone-only {
-          @media (max-width: 476px) {
+          @media (max-width: 468px) {
             width: 32rem;
             margin-left: 0.2rem;
             margin-top: 2rem;
