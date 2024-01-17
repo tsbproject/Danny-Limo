@@ -126,6 +126,11 @@ body {
 .section-about--paragraph1 {
   text-justify: auto; }
 
+.section-services {
+  background-color: #000000; }
+  .section-services--heading {
+    background-color: color-primary-black; }
+
 .u-center-text {
   text-align: center !important; }
 
@@ -341,8 +346,8 @@ body {
     height: 68rem; } }
 
 #section3 {
-  height: 60rem;
-  background-color: red; }
+  height: 80rem;
+  background-color: #000000; }
 
 #section4 {
   height: 60rem;
