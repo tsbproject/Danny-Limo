@@ -1,0 +1,96 @@
+.section-contact {
+    
+
+
+    &--heading3 {
+      font-size: $heading-secondary-font-main;
+      color: $color-primary;
+      font-weight: 500;
+      text-decoration: underline;
+
+      @include for-phone-only {
+        @media (max-width: 576px) {
+
+        }
+      }
+
+
+      @include for-tablet-portrait-up {
+        @media (max-width: 768px) { 
+
+         }
+      }
+    
+
+    }
+
+
+    
+
+
+    &__icon {
+      color: $color-primary;
+      font-size: 4rem;
+     
+      @include for-phone-only {
+        @media (max-width: 576px) {
+
+        }
+      }
+
+
+      @include for-tablet-portrait-up {
+        @media (max-width: 768px) { 
+            
+         }
+      }
+      
+
+    }
+
+    &__email {
+        font-size: $heading-secondary-font-main;
+        margin-bottom: 10rem;
+
+        @include for-phone-only {
+            @media (max-width: 576px) {
+    
+            }
+          }
+    
+    
+          @include for-tablet-portrait-up {
+            @media (max-width: 768px) { 
+
+                font-size: 3rem;
+                
+             }
+          }
+       
+    }
+
+    &__phone {
+        font-size: $heading-secondary-font-main;
+
+
+        @include for-phone-only {
+            @media (max-width: 576px) {
+    
+            }
+          }
+    
+    
+          @include for-tablet-portrait-up {
+            @media (max-width: 768px) { 
+                font-size: 3rem;
+                
+             }
+          }
+
+    }
+
+}
+
+
+
+

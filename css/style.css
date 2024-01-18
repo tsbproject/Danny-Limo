@@ -254,6 +254,31 @@ body {
   .btn-text {
     margin-top: 100rem; } }
 
+.section-contact--heading3 {
+  font-size: 5rem;
+  color: #deb887;
+  font-weight: 500;
+  text-decoration: underline; }
+
+.section-contact__icon {
+  color: #deb887;
+  font-size: 4rem; }
+
+.section-contact__email {
+  font-size: 5rem;
+  margin-bottom: 10rem; }
+
+@media (max-width: 768px) and (max-width: 768px) {
+  .section-contact__email {
+    font-size: 3rem; } }
+
+.section-contact__phone {
+  font-size: 5rem; }
+
+@media (max-width: 768px) and (max-width: 768px) {
+  .section-contact__phone {
+    font-size: 3rem; } }
+
 .navbar-nav {
   color: #000000;
   list-style: none;
@@ -347,6 +372,10 @@ body {
   padding: 3rem;
   text-align: center; }
 
+#section-contact-info {
+  background-color: #000000;
+  display: inline-flex; }
+
 #section1 {
   height: 100rem;
   background-image: radial-gradient(black, rgba(255, 255, 255, 0.2)), url("../images/background3.jpg");
@@ -397,6 +426,7 @@ body {
 
 #section5 {
   height: 100rem;
+  background-color: #000000;
   background-image: linear-gradient(to right bottom, black, rgba(0, 0, 0, 0.8)), url("../images/Picture 6.jpg");
   background-position: top;
   background-size: cover;
