@@ -114,7 +114,7 @@ body {
 
       &--img {
         width: 43rem;
-        height: 33rem;
+        height: auto;
         border: 2rem;
         margin-left: 1rem;
        
@@ -122,7 +122,7 @@ body {
 
         @include for-phone-only {
           @media(max-width:  576px) {
-             width: 20rem;
+             width: 30rem;
              margin-left: -3rem;
           
           }
@@ -133,8 +133,7 @@ body {
           @media (max-width: 768px) { 
             width: 30rem;
             height: auto;
-            position: relative;
-            right: -1.8rem;
+           
         
             
           

@@ -101,22 +101,20 @@ body {
 
 .section-about--img {
   width: 43rem;
-  height: 33rem;
+  height: auto;
   border: 2rem;
   margin-left: 1rem;
   box-shadow: 1rem 1rem 1rem rgba(222, 184, 135, 0.3); }
 
 @media (max-width: 576px) and (max-width: 576px) {
   .section-about--img {
-    width: 20rem;
+    width: 30rem;
     margin-left: -3rem; } }
 
 @media (max-width: 768px) and (max-width: 768px) {
   .section-about--img {
     width: 30rem;
-    height: auto;
-    position: relative;
-    right: -1.8rem; } }
+    height: auto; } }
 
 @media (max-width: 576px) and (max-width: 468px) {
   .section-about--img {
