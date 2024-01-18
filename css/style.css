@@ -378,7 +378,12 @@ body {
   text-align: center; }
 
 #section-contact-info {
-  background-color: #000000; }
+  background-color: #000000;
+  border: 0.1rem solid #deb887; }
+
+#section-contact__form {
+  background-color: #000000;
+  border: 0.1rem solid #deb887; }
 
 #section1 {
   height: 100rem;
