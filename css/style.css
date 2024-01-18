@@ -256,6 +256,7 @@ body {
 
 .section-contact--heading3 {
   font-size: 5rem;
+  margin-bottom: 5rem;
   color: #deb887;
   font-weight: 500;
   text-decoration: underline; }
@@ -278,6 +279,10 @@ body {
 @media (max-width: 768px) and (max-width: 768px) {
   .section-contact__phone {
     font-size: 3rem; } }
+
+.section-contact__form {
+  font-size: 2rem;
+  display: block; }
 
 .navbar-nav {
   color: #000000;
@@ -373,8 +378,7 @@ body {
   text-align: center; }
 
 #section-contact-info {
-  background-color: #000000;
-  display: inline-flex; }
+  background-color: #000000; }
 
 #section1 {
   height: 100rem;
