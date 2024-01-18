@@ -18,8 +18,9 @@
 
 
 #section-contact-info {
-    background-color: $color-primary-black;
+    background-color: none;
     border: .1rem solid $color-primary;
+    border-radius: 1rem;
  
     
 }
@@ -27,7 +28,8 @@
 
 #section-contact__form {
 
-    background-color: $color-primary-black;
+    background-color: none;
     border: .1rem solid $color-primary;
+    border-radius: 1rem;
 
 }
