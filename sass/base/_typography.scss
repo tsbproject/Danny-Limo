@@ -179,8 +179,20 @@ body {
     font-size: $default-font-size2;
     text-align:left ;
     border: 1px solid $color-primary;
+    box-shadow: 5rem;
+    opacity: 6;
     padding: 1rem;
 
+    &:hover {
+      box-shadow: 0 .2rem .5rem .2rem $color-secondary-white ;
+    }
+
+  }
+
+  &__image {
+    width: 40rem;
+    height: auto;
+    align-content: space-between;
   }
 
 

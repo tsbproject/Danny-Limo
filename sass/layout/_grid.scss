@@ -4,6 +4,16 @@
 
 
 
+
+
+#section-services {
+    
+}
+
+
+
+
+
 #testimonial-column {
     color: $color-primary-black;
     background-color: $color-primary-black;
@@ -20,7 +30,13 @@
 #section-contact-info {
     background-color: none;
     border: .1rem solid $color-primary;
-    border-radius: 1rem;
+     border-radius: 1rem;
+    box-shadow: 20cqh;
+    opacity: 6;
+
+    &:hover {
+        box-shadow: 0 2px 5px 2px #f5f3f3; 
+    }
  
     
 }
@@ -30,6 +46,14 @@
 
     background-color: none;
     border: .1rem solid $color-primary;
-    border-radius: 1rem;
+     border-radius: 1rem;
+    box-shadow: 20cqh;
+    opacity: 6;
+
+    &:hover {
+        box-shadow: 0 2px 5px 2px #f5f3f3; 
+    }
+ 
 
 }
+
