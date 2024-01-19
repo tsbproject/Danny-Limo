@@ -262,6 +262,16 @@ body {
   .btn-text {
     margin-top: 100rem; } }
 
+.section-form__submit {
+  width: 20rem;
+  height: 3rem;
+  margin-left: 10rem;
+  margin-bottom: 2rem;
+  background-color: #deb887;
+  font-size: 1.5rem;
+  color: #000000;
+  font-weight: 800; }
+
 .section-contact--heading3 {
   font-size: 5rem;
   margin-bottom: 5rem;
@@ -274,7 +284,7 @@ body {
   font-size: 4rem; }
 
 .section-contact__email {
-  font-size: 5rem;
+  font-size: 3rem;
   margin-bottom: 10rem; }
 
 @media (max-width: 768px) and (max-width: 768px) {
@@ -282,18 +292,50 @@ body {
     font-size: 3rem; } }
 
 .section-contact__phone {
-  font-size: 5rem; }
+  font-size: 3rem; }
 
 @media (max-width: 768px) and (max-width: 768px) {
   .section-contact__phone {
     font-size: 3rem; } }
 
-.section-contact__form {
-  font-size: 2rem;
-  display: block; }
-
-.input {
-  width: 4rem; }
+.section-form {
+  margin-top: 3rem;
+  display: grid;
+  gap: .3rem;
+  font-size: 1rem; }
+  .section-form label {
+    display: inline-flex;
+    font-size: 1.5rem;
+    color: #deb887; }
+  .section-form__input {
+    width: 24rem;
+    height: 3rem;
+    background-color: transparent;
+    color: #ffffff;
+    font-size: 1rem;
+    border: 0.1rem solid #ffffff;
+    display: inline-flex;
+    position: relative;
+    bottom: 3rem;
+    left: 10rem;
+    box-shadow: 20cqh;
+    opacity: 6; }
+    .section-form__input:hover {
+      box-shadow: 0 2px 5px 2px #f5f3f3; }
+  .section-form__textarea {
+    width: 30rem;
+    height: 15rem;
+    position: relative;
+    bottom: 3rem;
+    left: 10rem;
+    background-color: transparent;
+    color: #ffffff;
+    font-size: 1rem;
+    border: 0.1rem solid #ffffff;
+    box-shadow: 20cqh;
+    opacity: 6; }
+    .section-form__textarea:hover {
+      box-shadow: 0 2px 5px 2px #f5f3f3; }
 
 .navbar-nav {
   color: #000000;
@@ -397,13 +439,13 @@ body {
   #section-contact-info:hover {
     box-shadow: 0 2px 5px 2px #f5f3f3; }
 
-#section-contact__form {
+#section-contact-form {
   background-color: none;
   border: 0.1rem solid #deb887;
   border-radius: 1rem;
   box-shadow: 20cqh;
   opacity: 6; }
-  #section-contact__form:hover {
+  #section-contact-form:hover {
     box-shadow: 0 2px 5px 2px #f5f3f3; }
 
 #section-footer {
