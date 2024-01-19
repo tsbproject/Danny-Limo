@@ -434,22 +434,22 @@ body {
   padding: 3rem;
   text-align: center; }
 
-#section-contact-info {
+.section-contact-info {
   background-color: none;
   border: 0.1rem solid #deb887;
   border-radius: 1rem;
   box-shadow: 20cqh;
   opacity: 6; }
-  #section-contact-info:hover {
+  .section-contact-info:hover {
     box-shadow: 0 2px 5px 2px #f5f3f3; }
 
-#section-contact-form {
+.section-contact-form {
   background-color: none;
   border: 0.1rem solid #deb887;
   border-radius: 1rem;
   box-shadow: 20cqh;
   opacity: 6; }
-  #section-contact-form:hover {
+  .section-contact-form:hover {
     box-shadow: 0 2px 5px 2px #f5f3f3; }
 
 #section-footer {
