@@ -2,7 +2,7 @@
 .section-form {
     margin-top: 3rem;
     display:grid;
-    gap: .3rem;
+    gap: .2rem;
     font-size: 1rem;
 
     label {
@@ -21,13 +21,33 @@
         display: inline-flex;
         position: relative;
         bottom: 3rem;
-        left: 10rem;
+        left: 8rem;
         box-shadow: 20cqh;
         opacity: 6;
     
         &:hover {
             box-shadow: 0 2px 5px 2px #f5f3f3; 
         }
+
+
+        
+        @include for-phone-only {
+            @media(max-width:  576px) {
+              
+            
+            }
+          }
+  
+  
+          @include for-tablet-portrait-up {
+            @media (max-width: 768px) { 
+            
+             
+          
+              
+            
+            }
+          }
     
     }
     
@@ -38,7 +58,7 @@
         height: 15rem;
         position: relative;
         bottom: 3rem;
-        left: 10rem;
+        left: 8rem;
         background-color: transparent;
         color: $color-secondary-white;
         font-size: 1rem;
@@ -49,6 +69,27 @@
         &:hover {
             box-shadow: 0 2px 5px 2px #f5f3f3; 
         }
+
+
+        
+        @include for-phone-only {
+            @media(max-width:  576px) {
+              
+            
+            }
+          }
+  
+  
+          @include for-tablet-portrait-up {
+            @media (max-width: 768px) { 
+              width: 25rem;
+              height: 8rem;
+             
+          
+              
+            
+            }
+          }
         
     }
 
