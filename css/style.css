@@ -37,7 +37,8 @@ html {
   font-size: 62.5%; }
 
 body {
-  box-sizing: border-box; }
+  box-sizing: border-box;
+  padding: 1.5rem; }
 
 body {
   font-family: "oxygen" sans-serif;
@@ -291,6 +292,9 @@ body {
   font-size: 2rem;
   display: block; }
 
+.input {
+  width: 4rem; }
+
 .navbar-nav {
   color: #000000;
   list-style: none;
@@ -402,6 +406,13 @@ body {
   #section-contact__form:hover {
     box-shadow: 0 2px 5px 2px #f5f3f3; }
 
+#section-footer {
+  height: 4rem; }
+
+.section-footer--copyright {
+  font-size: 1.5rem;
+  color: #deb887; }
+
 #section1 {
   height: 100rem;
   background-image: radial-gradient(black, rgba(255, 255, 255, 0.2)), url("../images/background3.jpg");
@@ -447,8 +458,7 @@ body {
   background-color: #000000; }
 
 #section4 {
-  height: 60rem;
-  background-color: orange; }
+  height: 60rem; }
 
 #section5 {
   height: 100rem;
