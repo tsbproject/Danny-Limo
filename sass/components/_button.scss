@@ -49,7 +49,7 @@
 
     &--orange {
         background-color: $color-primary;
-        color: $color-secondary-black;
+        color: $color-primary-black;
 
         &::after {
             background-color: $color-primary;
@@ -89,7 +89,7 @@
 
     &:hover {
         background-color: $color-primary-black;
-        color: $color-secondary-white;
+        color: $color-primary-black;
         box-shadow: 0 1rem 2rem rgba($color-primary-black, .15);
         transform: translateY(-2px);
     }

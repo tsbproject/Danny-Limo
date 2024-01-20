@@ -219,7 +219,7 @@ body {
 
 .btn--orange {
   background-color: #deb887;
-  color: #ffffff; }
+  color: #000000; }
   .btn--orange::after {
     background-color: #deb887; }
 
@@ -250,7 +250,7 @@ body {
 
 .btn-text:hover {
   background-color: #000000;
-  color: #ffffff;
+  color: #000000;
   box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.15);
   transform: translateY(-2px); }
 
