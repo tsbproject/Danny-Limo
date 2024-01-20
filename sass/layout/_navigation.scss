@@ -1,20 +1,15 @@
 
 
      .navbar-nav {
-        color: $color-primary-black;
         list-style: none;
         display: inline-flex;
 
         @include for-phone-only {
           @media (max-width: 576px) { 
           position: relative;
-           display: block;
-           background-color: $color-secondary-white;
-           background-position: top;
-          
-          
-           width: 100%;
-           height: 100%;
+          display: block;
+          width: 100%;
+          height: 100%;
            
             
             
@@ -25,11 +20,11 @@
 
         @include for-tablet-portrait-up {
           @media (min-width: 768px) {
-            background-color:$color-secondary-white;
             width: 100%;
             height: 100%;
             display: block;
             position: relative;
+            
            
             
            }
@@ -75,6 +70,7 @@
        
          @include for-phone-only {
           @media (max-width: 576px) { 
+            color: $color-primary;
             position: relative;
             left: 25rem;
             
@@ -87,8 +83,11 @@
         
         @include for-tablet-portrait-up {
           @media (min-width: 768px) {
+            color: $color-primary;
             position: relative;
             left: 30rem;
+
+            
             
             
            }
