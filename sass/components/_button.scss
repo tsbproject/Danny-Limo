@@ -10,6 +10,7 @@
         transition: all .2s;
         position: relative;
         font-size: $default-font-size;
+       
 
         border: none;
         cursor: pointer;
@@ -32,8 +33,8 @@
         box-shadow: 0  .5rem  1rem  rgba($color-primary-black, .2);
 
     }
-    &--white {
-        background-color: $color-secondary-white;
+    &--orange {
+        background-color: $color-primary;
         color: $color-grey-dark;
 
         &::after {
@@ -48,7 +49,7 @@
 
     &--orange {
         background-color: $color-primary;
-        color: $color-primary;
+        color: $color-secondary-black;
 
         &::after {
             background-color: $color-primary;
@@ -87,7 +88,7 @@
     }
 
     &:hover {
-        background-color: $color-primary;
+        background-color: $color-primary-black;
         color: $color-secondary-white;
         box-shadow: 0 1rem 2rem rgba($color-primary-black, .15);
         transform: translateY(-2px);

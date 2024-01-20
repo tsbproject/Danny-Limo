@@ -208,18 +208,18 @@ body {
   transform: translateY(-1px);
   box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.2); }
 
-.btn--white {
-  background-color: #ffffff;
+.btn--orange {
+  background-color: #deb887;
   color: #777; }
-  .btn--white::after {
+  .btn--orange::after {
     background-color: #ffffff;
     color: #777; }
-  .btn--white::after {
+  .btn--orange::after {
     background-color: #ffffff; }
 
 .btn--orange {
   background-color: #deb887;
-  color: #deb887; }
+  color: #ffffff; }
   .btn--orange::after {
     background-color: #deb887; }
 
@@ -249,7 +249,7 @@ body {
   transition: all .2s; }
 
 .btn-text:hover {
-  background-color: #deb887;
+  background-color: #000000;
   color: #ffffff;
   box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.15);
   transform: translateY(-2px); }
