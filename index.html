@@ -46,14 +46,14 @@
             <span class=" bi bi-list-nested"></span>
           </button>
 
-          <div class="offcanvas offcanvas-end bg-dark" id="navbarOffcanvas"
+          <div class="offcanvas offcanvas-end bg-secondary" id="navbarOffcanvas"
         tabindex="-1" aria-labelledby="offcanvasNavbarLabel">
         <div class="offcanvas-header">
           <h5 class="offcanvas-title text-light" id="offcanvasNavbarLabel">Danny Limo Company</h5>
           <button type="button" class="btn-close btn-close-white text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
         </div>
           <div class=" offcanvas-body ">
-            <ul class="navbar-nav text-light">
+            <ul class="navbar-nav ">
               <li class="nav-item">
                 <a class="nav-link" href="#section1">Home</a>
               </li>
@@ -235,11 +235,11 @@
         
         <div id="section-contact-form" class="col-sm-6">
           <div class="section-contact-form p-2 ">
-            <form class="section-form">
-              <label> Full Name</label> <input type="text" class="section-form__input" placeholder="your name">
-              <label>Phone</label> <input type="text"  class="section-form__input"  placeholder="your phone number">
-              <label>Email</label> <input type="email" class="section-form__input"  placeholder="your email">
-              <label>Message</label> <input type="textarea" class="section-form__textarea"  placeholder="type message">
+            <form class="section-form" action="sendEmail.php" method="post" onsubmit="return validateForm()">
+              <label> Full Name</label> <input id="name" type="name" class="section-form__input" placeholder="your name" required>
+              <label>Phone</label> <input id="name" type="phone"  class="section-form__input"  placeholder="your phone number" required>
+              <label>Email</label> <input id="email" type="email" class="section-form__input"  placeholder="your email" required>
+              <label>Message</label> <textarea id="message" type="message" class="section-form__textarea" rows="4"  placeholder="type message" required> 
               <button input type="btn btn-primary" class="section-form__submit"> Submit</button>
               
 
