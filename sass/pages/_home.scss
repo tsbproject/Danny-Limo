@@ -5,7 +5,7 @@
     radial-gradient( 
     rgba($color-primary-black,1.0), 
     rgba($color-secondary-white,0.2)),
-    url("../images/background3.jpg");
+    url("../images/picture-9.jpg");
     background-position: top;
     background-size: cover;
     background-repeat: no-repeat;
@@ -30,8 +30,8 @@
       @include for-tablet-portrait-up {
         @media (max-width: 768px) {
             height: 42rem;
-            background-size: contain;
-           background-position: center;
+            background-size: cover;
+          //  background-position: center;
         
            
            
@@ -73,17 +73,25 @@
     
   }
 
+  @include for-phone-only {
+    @media (max-width: 468px) {
+     
+      
+    
+     }
+  }
+
   @include for-tablet-portrait-up {
     @media (max-width: 768px) { 
-      height: 120rem;
+      height: 140rem;
     
     }
   }
 
 
   @include for-tablet-landscape-up {
-    @media (min-width: 992px) { 
-      height: 68rem;
+    @media (max-width: 992px) { 
+      height: 100rem;
 
     }
   }

@@ -105,6 +105,20 @@
 
         }
     }
+
+    @include for-tablet-portrait-up {
+        @media (max-width: 768px) {
+        
+
+        }
+      } 
+
+      @include for-tablet-landscape-up {
+        @media (max-width: 992px) {
+            position: absolute;
+            
+         }
+      }
 }
 
 
