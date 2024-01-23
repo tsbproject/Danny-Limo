@@ -128,12 +128,9 @@ body {
 
 @media (max-width: 576px) and (max-width: 468px) {
   .section-about--img {
-    width: 20rem;
+    width: 27rem;
     height: auto;
-    margin-left: 3rem; } }
-
-.section-about--paragraph1 {
-  text-justify: auto; }
+    margin-left: -3rem; } }
 
 .section-services {
   background-color: #000000; }

@@ -146,6 +146,7 @@ body {
           @media (max-width: 768px) { 
             width: 35rem;
             height: auto;
+         
 
         
 
@@ -171,18 +172,16 @@ body {
 
         @include for-phone-only {
           @media (max-width: 468px) {
-            width: 20rem;
+            width: 27rem;
             height: auto;
-            margin-left: 3rem;
+            margin-left: -3rem;
             
           
            }
         }
       }
 
-      &--paragraph1 {
-        text-justify: auto;
-      }
+      
     
 }
 
