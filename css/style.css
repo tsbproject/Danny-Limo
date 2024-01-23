@@ -100,9 +100,7 @@ body {
 .section-about--paragraph1 {
   color: #ffffff;
   font-size: 1.7rem;
-  text-align: justify;
-  border: 0.2rem solid #deb887;
-  padding: 1rem; }
+  text-align: justify; }
 
 .section-about--img {
   width: 43rem;
@@ -527,6 +525,18 @@ body {
 .section-footer--copyright {
   font-size: 1.5rem;
   color: #deb887; }
+
+@media (max-width: 576px) and (max-width: 576px) {
+  .section-footer--copyright {
+    font-size: 1rem; } }
+
+@media (max-width: 768px) and (min-width: 768px) {
+  .section-footer--copyright {
+    font-size: .3rem; } }
+
+@media (max-width: 992px) and (min-width: 992px) {
+  .section-footer--copyright {
+    font-size: .3rem; } }
 
 #section1 {
   height: 100rem;
