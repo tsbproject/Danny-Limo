@@ -122,9 +122,9 @@ body {
 
 @media (max-width: 992px) and (max-width: 992px) {
   .section-about--img {
-    width: 28rem;
+    width: 22rem;
     height: auto;
-    margin-left: 0.1rem; } }
+    margin-left: -4rem; } }
 
 @media (max-width: 576px) and (max-width: 468px) {
   .section-about--img {
@@ -137,29 +137,6 @@ body {
 
 .section-services {
   background-color: #000000; }
-  .section-services--heading {
-    background-color: #000000;
-    color: #deb887;
-    font-size: 5rem;
-    text-transform: uppercase; }
-  .section-services--heading2 {
-    color: #deb887;
-    text-transform: uppercase;
-    font-size: 1.7rem;
-    text-align: center; }
-  .section-services--paragraph1 {
-    font-size: 1.5rem;
-    text-align: left;
-    border: 1px solid #deb887;
-    box-shadow: 5rem;
-    opacity: 6;
-    padding: 1rem; }
-    .section-services--paragraph1:hover {
-      box-shadow: 0 0.2rem 0.5rem 0.2rem #ffffff; }
-  .section-services__image {
-    width: 40rem;
-    height: auto;
-    align-content: space-between; }
 
 .section-testimonial--heading {
   font-size: 5rem;
@@ -298,6 +275,7 @@ body {
 
 .section-contact__email {
   font-size: 3rem;
+  color: #ffffff;
   margin-bottom: 10rem; }
 
 @media (max-width: 768px) and (max-width: 768px) {
@@ -305,11 +283,38 @@ body {
     font-size: 3rem; } }
 
 .section-contact__phone {
-  font-size: 3rem; }
+  font-size: 3rem;
+  color: #ffffff; }
 
 @media (max-width: 768px) and (max-width: 768px) {
   .section-contact__phone {
     font-size: 3rem; } }
+
+.section-services--heading {
+  background-color: #000000;
+  color: #deb887;
+  font-size: 5rem;
+  text-transform: uppercase; }
+
+.section-services--heading2 {
+  color: #deb887;
+  text-transform: uppercase;
+  font-size: 1.7rem;
+  text-align: center; }
+
+.section-services--paragraph1 {
+  font-size: 1.5rem;
+  text-align: left;
+  box-shadow: 5rem;
+  opacity: 6;
+  padding: 1rem; }
+  .section-services--paragraph1:hover {
+    box-shadow: 0 0.2rem 0.5rem 0.2rem #ffffff; }
+
+.section-services__image {
+  width: 40rem;
+  height: auto;
+  align-content: space-between; }
 
 .section-form {
   margin-top: 3rem;
@@ -481,7 +486,7 @@ body {
 
 #section1 {
   height: 100rem;
-  background-image: radial-gradient(black, rgba(255, 255, 255, 0.2)), url("../images/picture-9.jpg");
+  background-image: radial-gradient(black, rgba(255, 255, 255, 0.2)), url("../images/background-new.jpg");
   background-position: top;
   background-size: cover;
   background-repeat: no-repeat;
@@ -522,13 +527,21 @@ body {
   height: 80rem;
   background-color: #000000; }
 
+@media (max-width: 768px) and (max-width: 768px) {
+  #section3 {
+    height: 200rem; } }
+
+@media (max-width: 992px) and (max-width: 992px) {
+  #section3 {
+    height: 210rem; } }
+
 #section4 {
   height: 60rem; }
 
 #section5 {
   height: 100rem;
   background-color: #000000;
-  background-image: linear-gradient(to right bottom, black, rgba(0, 0, 0, 0.8)), url("../images/Picture 6.jpg");
+  background-image: linear-gradient(to right bottom, black, rgba(0, 0, 0, 0.8)), url("../images/picture-danny7.jpg");
   background-position: top;
   background-size: cover;
   background-repeat: no-repeat;

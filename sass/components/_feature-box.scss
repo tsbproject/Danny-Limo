@@ -52,6 +52,7 @@
 
     &__email {
         font-size: $heading-secondary-font;
+        color: $color-secondary-white;
         margin-bottom: 10rem;
 
         @include for-phone-only {
@@ -73,6 +74,7 @@
 
     &__phone {
         font-size: $heading-secondary-font;
+        color: $color-secondary-white;
 
 
         @include for-phone-only {
