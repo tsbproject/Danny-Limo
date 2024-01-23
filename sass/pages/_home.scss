@@ -109,6 +109,7 @@
 
     @include for-phone-only {
       @media (max-width: 576px) { 
+        height: 140rem;
           
        }
         
@@ -116,6 +117,7 @@
     
       @include for-phone-only {
         @media (max-width: 468px) {
+          height: 140rem;
          
           
         
@@ -124,7 +126,7 @@
     
       @include for-tablet-portrait-up {
         @media (max-width: 768px) { 
-          height: 200rem;
+          height: 170rem;
         
         }
       }

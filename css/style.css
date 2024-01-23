@@ -118,19 +118,20 @@ body {
 @media (max-width: 768px) and (max-width: 768px) {
   .section-about--img {
     width: 35rem;
-    height: auto; } }
+    height: auto;
+    margin-left: -5rem; } }
 
 @media (max-width: 992px) and (max-width: 992px) {
   .section-about--img {
     width: 22rem;
     height: auto;
-    margin-left: -4rem; } }
+    margin-left: 5rem; } }
 
 @media (max-width: 576px) and (max-width: 468px) {
   .section-about--img {
     width: 27rem;
     height: auto;
-    margin-left: -3rem; } }
+    margin-left: -2rem; } }
 
 .section-services {
   background-color: #000000; }
@@ -166,6 +167,9 @@ body {
 
 .u-margin-top-big {
   margin-top: 8rem; }
+
+.u-margin-top-medium {
+  margin-top: 4rem !important; }
 
 .btn, .btn:link, .btn:visited {
   text-transform: uppercase;
@@ -578,9 +582,17 @@ body {
   height: 80rem;
   background-color: #000000; }
 
+@media (max-width: 576px) and (max-width: 576px) {
+  #section3 {
+    height: 140rem; } }
+
+@media (max-width: 576px) and (max-width: 468px) {
+  #section3 {
+    height: 140rem; } }
+
 @media (max-width: 768px) and (max-width: 768px) {
   #section3 {
-    height: 200rem; } }
+    height: 170rem; } }
 
 @media (max-width: 992px) and (max-width: 992px) {
   #section3 {
