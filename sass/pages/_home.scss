@@ -68,13 +68,14 @@
 
 @include for-phone-only {
   @media (max-width: 576px) { 
-      height: 160rem;
+      height: 200rem;
    }
     
   }
 
   @include for-phone-only {
     @media (max-width: 468px) {
+      // height: 250rem;
      
       
     
@@ -91,7 +92,7 @@
 
   @include for-tablet-landscape-up {
     @media (max-width: 992px) { 
-      height: 100rem;
+      height: 140rem;
 
     }
   }
@@ -131,7 +132,7 @@
     
       @include for-tablet-landscape-up {
         @media (max-width: 992px) { 
-          height: 210rem;
+          height: 215rem;
     
         }
       }

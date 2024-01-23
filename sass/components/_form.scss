@@ -9,6 +9,14 @@
         display: inline-flex;
         font-size: 1.5rem;
         color: $color-primary;
+
+        @include for-tablet-landscape-up {
+          @media (max-width: 992px) {
+            font-size: 1rem;
+            
+           }
+        }
+     
     }
     
     &__input {
@@ -41,6 +49,10 @@
   
           @include for-tablet-portrait-up {
             @media (max-width: 768px) { 
+              width: 23rem;
+              position: relative;
+              bottom: 3rem;
+              left: 8rem;
             
              
           
@@ -48,6 +60,17 @@
             
             }
           }
+
+          @include for-tablet-landscape-up {
+            @media (max-width: 992px) {
+              position: relative;
+              bottom: 3rem;
+              left: 5rem;
+               
+              
+             }
+          }
+       
     
     }
     
@@ -82,13 +105,23 @@
   
           @include for-tablet-portrait-up {
             @media (max-width: 768px) { 
-              width: 25rem;
+              width: 23rem;
               height: 8rem;
              
           
               
             
             }
+          }
+
+          @include for-tablet-landscape-up {
+            @media (max-width: 992px) {
+              position: relative;
+              bottom: 3rem;
+              left: 5rem;
+               
+              
+             }
           }
         
     }

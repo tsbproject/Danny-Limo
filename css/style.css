@@ -100,7 +100,9 @@ body {
 .section-about--paragraph1 {
   color: #ffffff;
   font-size: 1.7rem;
-  text-align: justify; }
+  text-align: justify;
+  border: 0.2rem solid #deb887;
+  padding: 1rem; }
 
 .section-about--img {
   width: 43rem;
@@ -128,9 +130,9 @@ body {
 
 @media (max-width: 576px) and (max-width: 468px) {
   .section-about--img {
-    width: 30rem;
+    width: 20rem;
     height: auto;
-    margin-left: 4rem; } }
+    margin-left: 3rem; } }
 
 .section-about--paragraph1 {
   text-justify: auto; }
@@ -262,6 +264,17 @@ body {
   color: #000000;
   font-weight: 800; }
 
+@media (max-width: 768px) and (max-width: 768px) {
+  .section-form__submit {
+    width: 16rem;
+    height: 3rem;
+    margin-left: 8rem;
+    margin-bottom: 2rem;
+    background-color: #deb887;
+    font-size: 1.5rem;
+    color: #000000;
+    font-weight: 800; } }
+
 .section-contact--heading3 {
   font-size: 5rem;
   margin-bottom: 5rem;
@@ -282,6 +295,10 @@ body {
   .section-contact__email {
     font-size: 3rem; } }
 
+@media (max-width: 992px) and (max-width: 992px) {
+  .section-contact__email {
+    font-size: 2.3rem; } }
+
 .section-contact__phone {
   font-size: 3rem;
   color: #ffffff; }
@@ -289,6 +306,10 @@ body {
 @media (max-width: 768px) and (max-width: 768px) {
   .section-contact__phone {
     font-size: 3rem; } }
+
+@media (max-width: 992px) and (max-width: 992px) {
+  .section-contact__phone {
+    font-size: 2.3rem; } }
 
 .section-services--heading {
   background-color: #000000;
@@ -325,6 +346,10 @@ body {
     display: inline-flex;
     font-size: 1.5rem;
     color: #deb887; }
+
+@media (max-width: 992px) and (max-width: 992px) {
+  .section-form label {
+    font-size: 1rem; } }
   .section-form__input {
     width: 24rem;
     height: 3rem;
@@ -340,6 +365,19 @@ body {
     opacity: 6; }
     .section-form__input:hover {
       box-shadow: 0 2px 5px 2px #f5f3f3; }
+
+@media (max-width: 768px) and (max-width: 768px) {
+  .section-form__input {
+    width: 23rem;
+    position: relative;
+    bottom: 3rem;
+    left: 8rem; } }
+
+@media (max-width: 992px) and (max-width: 992px) {
+  .section-form__input {
+    position: relative;
+    bottom: 3rem;
+    left: 5rem; } }
   .section-form__textarea {
     width: 30rem;
     height: 15rem;
@@ -357,8 +395,14 @@ body {
 
 @media (max-width: 768px) and (max-width: 768px) {
   .section-form__textarea {
-    width: 25rem;
+    width: 23rem;
     height: 8rem; } }
+
+@media (max-width: 992px) and (max-width: 992px) {
+  .section-form__textarea {
+    position: relative;
+    bottom: 3rem;
+    left: 5rem; } }
 
 .navbar-nav {
   list-style: none;
@@ -513,7 +557,7 @@ body {
 
 @media (max-width: 576px) and (max-width: 576px) {
   #section2 {
-    height: 160rem; } }
+    height: 200rem; } }
 
 @media (max-width: 768px) and (max-width: 768px) {
   #section2 {
@@ -521,7 +565,7 @@ body {
 
 @media (max-width: 992px) and (max-width: 992px) {
   #section2 {
-    height: 100rem; } }
+    height: 140rem; } }
 
 #section3 {
   height: 80rem;
@@ -533,7 +577,7 @@ body {
 
 @media (max-width: 992px) and (max-width: 992px) {
   #section3 {
-    height: 210rem; } }
+    height: 215rem; } }
 
 #section4 {
   height: 60rem; }

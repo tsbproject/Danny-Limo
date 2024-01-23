@@ -69,6 +69,13 @@
                 
              }
           }
+
+          @include for-tablet-landscape-up {
+            @media (max-width: 992px) {
+               font-size: 2.3rem;
+              
+             }
+          }
        
     }
 
@@ -90,6 +97,14 @@
                 
              }
           }
+
+          @include for-tablet-landscape-up {
+            @media (max-width: 992px) {
+               font-size: 2.3rem;
+              
+             }
+          }
+       
 
     }
 

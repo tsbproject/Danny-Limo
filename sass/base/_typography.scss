@@ -118,6 +118,9 @@ body {
         color: $color-secondary-white;
         font-size: $default-font-size;
         text-align: justify;
+        border: .2rem solid $color-primary;
+        padding: 1rem;
+      
       }
 
 
@@ -168,9 +171,9 @@ body {
 
         @include for-phone-only {
           @media (max-width: 468px) {
-            width: 30rem;
+            width: 20rem;
             height: auto;
-            margin-left: 4rem;
+            margin-left: 3rem;
             
           
            }
