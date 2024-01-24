@@ -103,9 +103,10 @@ body {
   text-align: justify; }
 
 .section-about--img {
-  border: 2rem;
-  margin-left: 1rem;
-  box-shadow: 1rem 1rem 1rem rgba(222, 184, 135, 0.3); }
+  border-width: 1rem;
+  border-style: double;
+  border-radius: 2rem;
+  border-color: #deb887; }
 
 .section-services {
   background-color: #000000; }
@@ -441,6 +442,10 @@ body {
   box-shadow: none !important;
   margin-right: 1.5rem;
   font-size: 1.5rem; }
+
+.offcanvas {
+  height: 100rem;
+  max-width: 15rem; }
 
 .navbar {
   height: 8rem;
