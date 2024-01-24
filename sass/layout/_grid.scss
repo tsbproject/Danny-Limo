@@ -18,6 +18,8 @@
     border-color: $color-primary;
     padding: 3rem;
     text-align: center;
+
+    
   
 
 
@@ -34,6 +36,8 @@
     &:hover {
         box-shadow: 0 2px 5px 2px #f5f3f3; 
     }
+
+    animation: moveInLeft 2s ease-out ;
  
     
 }
@@ -50,6 +54,8 @@
     &:hover {
         box-shadow: 0 2px 5px 2px #f5f3f3; 
     }
+
+    animation: moveInRight 2s ease-out ;
 
     @include for-tablet-portrait-up {
         @media (max-width: 768px) { 

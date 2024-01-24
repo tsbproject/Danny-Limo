@@ -54,6 +54,7 @@
         font-size: $heading-secondary-font;
         color: $color-secondary-white;
         margin-bottom: 10rem;
+       
 
         @include for-phone-only {
             @media (max-width: 576px) {
@@ -78,6 +79,8 @@
           }
        
     }
+
+  
 
     &__phone {
         font-size: $heading-secondary-font;
@@ -108,7 +111,15 @@
 
     }
 
+
+   
+
   
+
+}
+
+.section-contact__link {
+  text-decoration: none;
 
 }
 

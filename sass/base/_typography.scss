@@ -118,6 +118,8 @@ body {
         color: $color-secondary-white;
         font-size: $default-font-size;
         text-align: justify;
+
+        animation: moveInLeft 2s ease-out ;
         // border: .2rem solid $color-primary;
        
       
@@ -129,12 +131,20 @@ body {
         border-style: double;
         border-radius: 2rem;
         border-color: grey;
+
+       
         
        
        
        
 
         
+      }
+
+
+      &__img {
+        animation: moveInRight 2s ease-out ;
+
       }
 
       
@@ -145,7 +155,7 @@ body {
 
 .section-services {
   background-color: $color-primary-black;
-
+  
 
 
 }
@@ -157,6 +167,8 @@ body {
     font-size: $heading-secondary-font-main;
     text-transform: uppercase;
     color: $color-primary;
+
+    animation: moveInLeft 2s ease-out ;
 
     @include for-phone-only {
       @media(max-width:  576px) {
@@ -207,6 +219,8 @@ body {
     text-transform: uppercase;
     font-size: $default-font-size;
     text-align: left;
+
+    animation: moveInLeft 2s ease-out ;
   }
 
   &--paragraph1{
@@ -214,6 +228,8 @@ body {
     font-style: italic;
     text-align:left ;
     padding: 1rem;
+
+    animation: moveInRight 2s ease-out ;
 
   }
    

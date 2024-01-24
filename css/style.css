@@ -104,7 +104,8 @@ body {
 .section-about--paragraph1 {
   color: #ffffff;
   font-size: 1.7rem;
-  text-align: justify; }
+  text-align: justify;
+  animation: moveInLeft 2s ease-out; }
 
 .section-about--img {
   border-width: 1rem;
@@ -112,13 +113,17 @@ body {
   border-radius: 2rem;
   border-color: grey; }
 
+.section-about__img {
+  animation: moveInRight 2s ease-out; }
+
 .section-services {
   background-color: #000000; }
 
 .section-testimonial--heading {
   font-size: 5rem;
   text-transform: uppercase;
-  color: #deb887; }
+  color: #deb887;
+  animation: moveInLeft 2s ease-out; }
 
 @media (max-width: 768px) and (max-width: 768px) {
   .section-testimonial--heading {
@@ -128,13 +133,15 @@ body {
   color: #deb887;
   text-transform: uppercase;
   font-size: 1.7rem;
-  text-align: left; }
+  text-align: left;
+  animation: moveInLeft 2s ease-out; }
 
 .section-testimonial--paragraph1 {
   font-size: 1.5rem;
   font-style: italic;
   text-align: left;
-  padding: 1rem; }
+  padding: 1rem;
+  animation: moveInRight 2s ease-out; }
 
 .u-center-text {
   text-align: center !important; }
@@ -299,11 +306,15 @@ body {
   .section-contact__phone {
     font-size: 2.3rem; } }
 
+.section-contact__link {
+  text-decoration: none; }
+
 .section-services--heading {
   background-color: #000000;
   color: #deb887;
   font-size: 5rem;
-  text-transform: uppercase; }
+  text-transform: uppercase;
+  animation: moveInRight 2s ease-out; }
 
 .section-services--heading2 {
   color: #deb887;
@@ -324,6 +335,9 @@ body {
   width: 40rem;
   height: auto;
   align-content: space-between; }
+
+.card {
+  animation: moveInLeft 2s ease-out; }
 
 .section-form {
   margin-top: 3rem;
@@ -507,7 +521,8 @@ body {
   border: 0.1rem solid #deb887;
   border-radius: 1rem;
   box-shadow: 20cqh;
-  opacity: 6; }
+  opacity: 6;
+  animation: moveInLeft 2s ease-out; }
   .section-contact-info:hover {
     box-shadow: 0 2px 5px 2px #f5f3f3; }
 
@@ -516,7 +531,8 @@ body {
   border: 0.1rem solid #deb887;
   border-radius: 1rem;
   box-shadow: 20cqh;
-  opacity: 6; }
+  opacity: 6;
+  animation: moveInRight 2s ease-out; }
   .section-contact-form:hover {
     box-shadow: 0 2px 5px 2px #f5f3f3; }
 

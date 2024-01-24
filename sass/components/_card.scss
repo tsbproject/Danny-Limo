@@ -6,6 +6,8 @@
       color: $color-primary;
       font-size: $heading-secondary-font-main;
       text-transform: uppercase;
+
+      animation: moveInRight 2s ease-out ;
     }
   
     &--heading2 {
@@ -21,6 +23,8 @@
       box-shadow: 5rem;
       opacity: 6;
       padding: 1rem;
+
+      
   
       &:hover {
         box-shadow: 0 .2rem .5rem .2rem $color-secondary-white ;
@@ -36,4 +40,8 @@
   
   
   
+  }
+
+  .card {
+    animation: moveInLeft 2s ease-out ;
   }
