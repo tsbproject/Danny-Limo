@@ -125,61 +125,12 @@ body {
 
 
       &--img {
-        width: 43rem;
-        height: auto;
         border: 2rem;
         margin-left: 1rem;
        
         box-shadow: 1rem  1rem  1rem rgba($color-primary,0.3);
 
-        @include for-phone-only {
-          @media(max-width:  576px) {
-             width: 24rem;
-             height: auto;
-             margin-left: -3rem;
-          
-          }
-        }
-
-
-        @include for-tablet-portrait-up {
-          @media (max-width: 768px) { 
-            width: 35rem;
-            height: auto;
-            margin-left: -5rem;
-         
-
         
-
-          
-           
-        
-            
-          
-          }
-        }
-
-
-        @include for-tablet-landscape-up {
-          @media (max-width: 992px) {
-              width: 22rem;
-              height: auto;
-
-              margin-left: 5rem;
-
-              
-           }
-        }
-
-        @include for-phone-only {
-          @media (max-width: 468px) {
-            width: 27rem;
-            height: auto;
-            margin-left: 6rem;
-            
-          
-           }
-        }
       }
 
       
@@ -202,6 +153,48 @@ body {
     font-size: $heading-secondary-font-main;
     text-transform: uppercase;
     color: $color-primary;
+
+    @include for-phone-only {
+      @media(max-width:  576px) {
+         
+      }
+    }
+
+
+    @include for-tablet-portrait-up {
+      @media (max-width: 768px) { 
+        font-size: $heading-secondary-font;
+      
+     
+
+    
+
+      
+       
+    
+        
+      
+      }
+    }
+
+
+    @include for-tablet-landscape-up {
+      @media (max-width: 992px) {
+         
+
+       
+
+          
+       }
+    }
+
+    @include for-phone-only {
+      @media (max-width: 468px) {
+        
+        
+      
+       }
+    }
     
   }
 
