@@ -110,7 +110,7 @@ body {
   border-width: 1rem;
   border-style: double;
   border-radius: 2rem;
-  border-color: #deb887; }
+  border-color: grey; }
 
 .section-services {
   background-color: #000000; }
@@ -454,8 +454,15 @@ body {
   font-size: 1.5rem; }
 
 .offcanvas {
-  height: 100rem;
-  max-width: 15rem; }
+  height: 100rem; }
+
+@media (max-width: 576px) and (max-width: 576px) {
+  .offcanvas {
+    max-width: 15rem; } }
+
+@media (max-width: 768px) and (min-width: 768px) {
+  .offcanvas {
+    max-width: 15rem; } }
 
 .navbar {
   height: 8rem;
@@ -589,7 +596,7 @@ body {
 
 @media (max-width: 992px) and (max-width: 992px) {
   #section3 {
-    height: 214rem; } }
+    height: 212rem; } }
 
 #section4 {
   height: 60rem; }

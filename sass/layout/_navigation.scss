@@ -140,7 +140,44 @@
 
   .offcanvas {
     height: 100rem;
-    max-width: 15rem;
+   
+
+    @include for-phone-only {
+      @media (max-width: 576px) { 
+        max-width: 15rem;
+        
+        
+        
+       
+      }
+    }
+
+
+    
+    @include for-tablet-portrait-up {
+      @media (min-width: 768px) {
+        max-width: 15rem;
+       
+
+        
+        
+        
+       }
+    }
+
+
+    @include for-tablet-landscape-up {
+      @media (min-width: 992px) { 
+      
+        
+
+      }
+    }
+    
+
+
+
+   
    
 
   }
