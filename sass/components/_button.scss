@@ -10,6 +10,8 @@
         transition: all .2s;
         position: relative;
         font-size: $default-font-size;
+        font-weight: 700;
+       
        
 
         border: none;
@@ -18,7 +20,7 @@
 
     &:hover {
         transform: translateY(-3px);
-        box-shadow: 0 1rem 2rem rgba($color-primary-black, .2);
+        box-shadow: 0 1rem 2rem rgba($color-secondary-white, .2);
 
         &::after {
             transform: scaleX(1.4) scaleY(1.6);
@@ -30,16 +32,16 @@
     &:focus {
         outline: none;
         transform: translateY(-1px);
-        box-shadow: 0  .5rem  1rem  rgba($color-primary-black, .2);
+        box-shadow: 0  .5rem  1rem  rgba($color-secondary-white, .2);
 
     }
     &--orange {
         background-color: $color-primary;
-        color: $color-grey-dark;
+        color: $color-secondary-white;
 
         &::after {
             background-color: $color-secondary-white;
-            color: $color-grey-dark;
+            color: $color-secondary-white;
         }
 
         &::after {
@@ -50,6 +52,7 @@
     &--orange {
         background-color: $color-primary;
         color: $color-primary-black;
+        font-weight: 700;
 
         &::after {
             background-color: $color-primary;
@@ -79,17 +82,19 @@
     &:link,
     &:visited {
         font-size: $default-font-size;
-        color: $color-primary;
+        font-weight: 700;
+        color: $color-secondary-white;
         display: inline-block;
         text-decoration: none;
         border-bottom: 1px solid $color-primary;
         padding: 3px;
         transition: all .2s;
+        font-weight: 700;
     }
 
     &:hover {
-        background-color: $color-primary-black;
-        color: $color-primary-black;
+        background-color: $color-primary;
+        color: $color-secondary-white;
         box-shadow: 0 1rem 2rem rgba($color-primary-black, .15);
         transform: translateY(-2px);
     }
@@ -124,7 +129,7 @@
 
 
 .section-form__submit {
-    width: 20rem;
+    width: 17rem;
     height: 3rem;
     margin-left: 10rem;
     margin-bottom: 2rem;
@@ -132,6 +137,9 @@
     font-size: $default-font-size2;
     color: $color-primary-black;
     font-weight: 800;
+    border: none;
+    border-radius: 3rem;
+   
 
 
     @include for-tablet-portrait-up {
@@ -157,4 +165,8 @@
          }
       }
 }
+
+
+
+
 
