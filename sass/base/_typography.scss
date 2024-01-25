@@ -128,7 +128,7 @@ body {
 
       &--img {
         border-width: 1rem;
-        border-style: double;
+    
         border-radius: 2rem;
         border-color: grey;
 
@@ -164,7 +164,7 @@ body {
 .section-testimonial{
 
   &--heading {
-    font-size: $heading-secondary-font-main;
+    font-size: $heading-secondary-font;
     text-transform: uppercase;
     color: $color-primary;
 

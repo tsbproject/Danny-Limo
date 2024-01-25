@@ -4,7 +4,7 @@
     &--heading {
       background-color: $color-primary-black;
       color: $color-primary;
-      font-size: $heading-secondary-font-main;
+      font-size: $heading-secondary-font;
       text-transform: uppercase;
 
       animation: moveInRight 2s ease-out ;
@@ -20,22 +20,19 @@
     &--paragraph1{
       font-size: $default-font-size2;
       text-align:left ;
-      box-shadow: 5rem;
-      opacity: 6;
+      // box-shadow: 5rem;
+      // opacity: 6;
       padding: 1rem;
 
       
   
-      &:hover {
-        box-shadow: 0 .2rem .5rem .2rem $color-secondary-white ;
-      }
   
     }
   
     &__image {
       width: 40rem;
       height: auto;
-      align-content: space-between;
+   
     }
   
   
@@ -43,5 +40,14 @@
   }
 
   .card {
+    border: none;
+
+    box-shadow: 0 1.9rem 4rem rgba(gray, 9);
     animation: moveInLeft 2s ease-out ;
+
+
+    
+    &:hover {
+      box-shadow: 0 .2rem .5rem .2rem $color-secondary-white ;
+    }
   }

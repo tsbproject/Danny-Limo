@@ -109,7 +109,6 @@ body {
 
 .section-about--img {
   border-width: 1rem;
-  border-style: double;
   border-radius: 2rem;
   border-color: grey; }
 
@@ -120,7 +119,7 @@ body {
   background-color: #000000; }
 
 .section-testimonial--heading {
-  font-size: 5rem;
+  font-size: 3rem;
   text-transform: uppercase;
   color: #deb887;
   animation: moveInLeft 2s ease-out; }
@@ -271,7 +270,7 @@ body {
     font-weight: 800; } }
 
 .section-contact--heading3 {
-  font-size: 5rem;
+  font-size: 3rem;
   margin-bottom: 5rem;
   color: #deb887;
   font-weight: 500;
@@ -312,7 +311,7 @@ body {
 .section-services--heading {
   background-color: #000000;
   color: #deb887;
-  font-size: 5rem;
+  font-size: 3rem;
   text-transform: uppercase;
   animation: moveInRight 2s ease-out; }
 
@@ -325,19 +324,18 @@ body {
 .section-services--paragraph1 {
   font-size: 1.5rem;
   text-align: left;
-  box-shadow: 5rem;
-  opacity: 6;
   padding: 1rem; }
-  .section-services--paragraph1:hover {
-    box-shadow: 0 0.2rem 0.5rem 0.2rem #ffffff; }
 
 .section-services__image {
   width: 40rem;
-  height: auto;
-  align-content: space-between; }
+  height: auto; }
 
 .card {
+  border: none;
+  box-shadow: 0 1.9rem 4rem gray;
   animation: moveInLeft 2s ease-out; }
+  .card:hover {
+    box-shadow: 0 0.2rem 0.5rem 0.2rem #ffffff; }
 
 .section-form {
   margin-top: 3rem;
@@ -518,20 +516,18 @@ body {
 
 .section-contact-info {
   background-color: none;
-  border: 0.1rem solid #deb887;
   border-radius: 1rem;
   box-shadow: 20cqh;
   opacity: 6;
+  box-shadow: 0 1.9rem 4rem gray;
   animation: moveInLeft 2s ease-out; }
   .section-contact-info:hover {
     box-shadow: 0 2px 5px 2px #f5f3f3; }
 
 .section-contact-form {
   background-color: none;
-  border: 0.1rem solid #deb887;
   border-radius: 1rem;
-  box-shadow: 20cqh;
-  opacity: 6;
+  box-shadow: 0 1.9rem 4rem gray;
   animation: moveInRight 2s ease-out; }
   .section-contact-form:hover {
     box-shadow: 0 2px 5px 2px #f5f3f3; }
