@@ -260,7 +260,7 @@ body {
 
 @media (max-width: 768px) and (max-width: 768px) {
   .section-form__submit {
-    width: 16rem;
+    width: 13rem;
     height: 3rem;
     margin-left: 8rem;
     margin-bottom: 2rem;
@@ -342,6 +342,22 @@ body {
   display: grid;
   gap: .2rem;
   font-size: 1rem; }
+
+@media (min-width: 1200px) and (min-width: 1200px) {
+  .section-form {
+    position: relative;
+    right: -11rem; } }
+
+@media (max-width: 992px) and (max-width: 992px) {
+  .section-form {
+    position: relative;
+    right: -5rem; } }
+
+@media (max-width: 768px) and (max-width: 768px) {
+  .section-form {
+    padding: 1rem;
+    position: relative;
+    left: -1rem; } }
   .section-form label {
     display: inline-flex;
     font-size: 1.5rem;
@@ -349,9 +365,8 @@ body {
 
 @media (max-width: 992px) and (max-width: 992px) {
   .section-form label {
-    font-size: 1rem; } }
+    font-size: 1.3rem; } }
   .section-form__input {
-    width: 24rem;
     height: 3rem;
     background-color: transparent;
     color: #ffffff;
@@ -366,20 +381,34 @@ body {
     .section-form__input:hover {
       box-shadow: 0 2px 5px 2px #f5f3f3; }
 
-@media (max-width: 768px) and (max-width: 768px) {
+@media (max-width: 576px) and (max-width: 468px) {
   .section-form__input {
     width: 23rem;
     position: relative;
     bottom: 3rem;
-    left: 8rem; } }
+    left: 3rem; } }
+
+@media (max-width: 576px) and (max-width: 576px) {
+  .section-form__input {
+    width: 23rem;
+    position: relative;
+    bottom: 3rem;
+    left: 3rem; } }
+
+@media (max-width: 768px) and (max-width: 768px) {
+  .section-form__input {
+    width: 20rem;
+    position: relative;
+    bottom: 3rem;
+    left: 2rem; } }
 
 @media (max-width: 992px) and (max-width: 992px) {
   .section-form__input {
+    width: 26;
     position: relative;
     bottom: 3rem;
-    left: 5rem; } }
+    left: 8rem; } }
   .section-form__textarea {
-    width: 30rem;
     height: 15rem;
     position: relative;
     bottom: 3rem;
@@ -395,14 +424,14 @@ body {
 
 @media (max-width: 768px) and (max-width: 768px) {
   .section-form__textarea {
-    width: 23rem;
+    width: 20rem;
     height: 8rem; } }
 
 @media (max-width: 992px) and (max-width: 992px) {
   .section-form__textarea {
     position: relative;
     bottom: 3rem;
-    left: 5rem; } }
+    left: 8rem; } }
 
 .navbar-nav {
   list-style: none;
