@@ -185,13 +185,12 @@ body {
   transform: translateY(-1px);
   box-shadow: 0 0.5rem 1rem rgba(255, 255, 255, 0.2); }
 
-.btn--orange {
-  background-color: #deb887;
-  color: #ffffff; }
-  .btn--orange::after {
-    background-color: #ffffff;
-    color: #ffffff; }
-  .btn--orange::after {
+.btn--white {
+  background-color: #ffffff;
+  color: #000000; }
+  .btn--white::after {
+    background-color: #ffffff; }
+  .btn--white::after {
     background-color: #ffffff; }
 
 .btn--orange {

@@ -35,13 +35,13 @@
         box-shadow: 0  .5rem  1rem  rgba($color-secondary-white, .2);
 
     }
-    &--orange {
-        background-color: $color-primary;
-        color: $color-secondary-white;
+    &--white {
+        background-color: $color-secondary-white;
+        color: $color-primary-black;
 
         &::after {
             background-color: $color-secondary-white;
-            color: $color-secondary-white;
+            
         }
 
         &::after {
