@@ -331,7 +331,7 @@ body {
 
 .card {
   border: none;
-  box-shadow: 0 1.9rem 4rem gray;
+  box-shadow: 0 0.2rem 2rem gray;
   animation: moveInLeft 2s ease-out; }
   .card:hover {
     box-shadow: 0 0.2rem 0.5rem 0.2rem #ffffff; }
@@ -547,7 +547,7 @@ body {
   border-radius: 1rem;
   box-shadow: 20cqh;
   opacity: 6;
-  box-shadow: 0 1.9rem 4rem gray;
+  box-shadow: 0 0.2rem 2rem gray;
   animation: moveInLeft 2s ease-out; }
   .section-contact-info:hover {
     box-shadow: 0 2px 5px 2px #f5f3f3; }
@@ -555,7 +555,7 @@ body {
 .section-contact-form {
   background-color: none;
   border-radius: 1rem;
-  box-shadow: 0 1.9rem 4rem gray;
+  box-shadow: 0 0.2rem 2rem gray;
   animation: moveInRight 2s ease-out; }
   .section-contact-form:hover {
     box-shadow: 0 2px 5px 2px #f5f3f3; }
